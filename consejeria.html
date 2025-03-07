@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consejería General</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consejería General - ¿En qué te podemos ayudar?</h1>
+
+        <form id="counselingForm">
+            <label for="emocionalState">¿Te has sentido abrumado/a últimamente por tus emociones?</label><br><br>
+            <select id="emocionalState" name="emocionalState">
+                <option value="estres">Estrés</option>
+                <option value="relaciones">Problemas con relaciones</option>
+                <option value="agotamiento">Agotamiento emocional</option>
+                <option value="ansiedad">Ansiedad</option>
+                <option value="depresion">Depresión</option>
+                <option value="autoestima">Baja autoestima</option>
+            </select><br><br>
+
+            <label for="stress">¿Sientes que el estrés está afectando tu bienestar diario?</label><br><br>
+            <select id="stress" name="stress">
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select><br><br>
+
+            <button type="submit">Buscar recursos</button>
+        </form>
+    </div>
+
+    <script src="enviar_consejeria.js"></script>
+</body>
+</html>
